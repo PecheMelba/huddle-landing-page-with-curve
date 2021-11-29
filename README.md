@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Notes
 
-99th challenge from Frontend Mentor. The footer curve has a weird mark on top I don't know why...
+29th challenge from Frontend Mentor. The footer curve has a weird mark on top I don't know why...
 
 ## Author
 
