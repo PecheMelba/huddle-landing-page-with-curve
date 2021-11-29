@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Open Sans";
+}
+
+main
+{
+    /* width:90%; */
+    margin: 1.7em auto 0 auto;
+}
+h1,h2 {font-size: "Poppins";}
+
+/* --------------HEADER-------------- */
+header
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0em 0em 6.5em 0em;
+}
+#header-logo
+{
+    width:33%;
+    height: 20%;
+}
+#try-btn
+{
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 1em;
+    color: hsl(322, 100%, 66%);
+    text-align: center;
+    padding:0.25em 1.5em;
+    font-size: 0.85em;
+}
+#try-btn:hover
+{
+    border: 1px solid hsla(322, 100%, 66%, 0.616);
+    color: hsla(322, 100%, 66%, 0.616);
+    cursor: pointer;
+}
+/* --------------BUILD COMMUNITY-------------- */
+#intro-pannel
+{
+    text-align: center;
+
+}
+#intro-title
+{
+    font-weight: bold;
+    margin-bottom: 0.6em;
+    line-height: 1.5em;
+    font-size: 1.7em;
+}
+#intro-pannel p
+{
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin-bottom: 3em;
+}
+#get-started-btn
+{
+    background-color: hsl(322, 100%, 66%);
+    color:white;
+    border-radius: 2em;
+    padding:0.8em 1em;
+    width:50%;
+    margin: 0 auto 8.5em auto;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+#get-started-btn:hover
+{
+    background-color: hsla(322, 100%, 66%, 0.61);
+    color:white;
+    cursor: pointer;
+}
+#img-mockups
+{
+    width:100%;
+    margin-bottom: 6.5em;
+}
+/* --------------STATS-------------- */
+#stats-pannel
+{
+    text-align: left;
+    width:50%;
+    margin: 0 auto 0em auto;
+}
+#first-stat
+{
+    margin-bottom: 5em;
+}
+.class-elem {margin-bottom: 3em;}
+.stat-img {margin-bottom: 0em; width:17%;}
+.stat-nb 
+{
+    font-size: 3.7em;
+    font-weight: bold;
+}
+.stat-subtext
+{
+    font-weight: bold;
+    color:rgb(173, 173, 173);
+}
+
+/* --------------CONCETPS-------------- */
+.idea-pannel
+{
+    display:flex;
+    flex-direction: column-reverse;
+    text-align:center;
+    margin-bottom: 11em;
+}
+.img-pannel 
+{
+    width:80%; 
+    margin:0 auto 3em auto;
+}
+.idea-title
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.idea-description
+{
+    font-size: 0.9em;
+}
+/* --------------READY TO BUILD COMMUNITY-------------- */
+#build-community-container
+{
+    text-align: center;
+    margin: 18em 0 17em 0;
+}
+#build-community-title
+{
+    margin: 0em auto 1.4em auto;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+#build-community-get-started-btn
+{
+    background-color: hsl(322, 100%, 66%);
+    color:white;
+    border-radius: 2em;
+    padding:0.8em 1em;
+    width:50%;
+    margin: 0 auto 8.5em auto;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+#build-community-get-started-btn:hover
+{
+    background-color: hsla(322, 100%, 66%, 0.61);
+    color:white;
+    cursor: pointer;
+}
+/* --------------FOOTER-------------- */
+footer
+{
+    position: relative;    
+    background: hsl(192, 100%, 9%);
+    color:white;
+    padding: 8em 2em 2.5em 2em;    
+}
+
+#newsletter-container
+{
+    margin-bottom:5em
+}
+#newsletter-title
+{
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+#newsletter-description
+{
+    margin-bottom: 4.5em;
+    font-size: 0.9em;
+}
+#sub-input
+{
+    margin-bottom: 1em;
+    padding:1.1em 1em;
+    width:90%;
+    margin: 0 auto 1em 0;
+    border-radius: 0.5em;
+    border:2px rgba(255, 166, 0, 0) solid;
+}
+#sub-input:hover
+{
+    cursor: pointer;
+    border:2px orange solid;
+}
+#sub-btn
+{
+    font-weight: bold;
+    background-color: hsl(322, 100%, 66%);
+    padding:0.85em 1em;
+    margin: 0 0 0 auto;
+    text-align: center;
+    width:50%;
+    border-radius: 0.25em;
+}
+#sub-btn:hover
+{
+    background-color: hsla(322, 100%, 66%, 0.671);
+    color:white;
+    cursor: pointer;
+}
+#contact-logo
+{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(12%) saturate(562%) hue-rotate(232deg) brightness(120%) contrast(100%);
+    width:60%;
+    margin-bottom: 1em;
+}
+#contact-description
+{
+    font-size: 0.8em;
+    font-weight: bold;
+    color:rgb(223, 223, 223);
+    line-height: 1.8em;
+    margin-bottom: 3em;
+}
+#phone-container, #mail-container
+{
+    display:flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+    color:rgb(223, 223, 223);
+}
+#phone-container img, #mail-container img
+{
+ margin-right: 1.2em;
+}
+#social-container
+{
+    width:50%;
+    margin-top: 3em;
+}
+#social-container img
+{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(12%) saturate(562%) hue-rotate(232deg) brightness(120%) contrast(100%);
+    margin-right: 1em;
+}
+#social-container img:hover
+{
+    filter: brightness(0) saturate(100%) invert(74%) sepia(32%) saturate(2124%) hue-rotate(177deg) brightness(106%) contrast(116%);
+    cursor: pointer;
+}
+
+/* ==========FIRST IDEA WAVES =============*/
+#concept1 
+{
+    position: relative;
+    background-color: hsl(207, 100%, 98%);
+    padding: 10em 0 5em 0;
+}
+/* top */
+.custom-shape-divider-top-1638183884 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-top-1638183884 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+}
+.custom-shape-divider-top-1638183884 .shape-fill {
+    fill: #FFFFFF;
+}
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1638183884 svg {
+        width: calc(100% + 1.3px);
+        height: 98px;
+    }
+}
+/* bottom */
+.custom-shape-divider-bottom-1638184153 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1638184153 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-bottom-1638184153 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1638184153 svg {
+        width: calc(100% + 1.3px);
+        height: 29px;
+    }
+}
+
+/* ===============THIRD IDEA WAVE=========== */
+#idea3
+{
+    position: relative;
+    background-color: hsl(207, 100%, 98%);
+    padding: 10em 0 5em 0;
+}
+
+/* Top */
+.custom-shape-divider-top-1638184558 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1638184558 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-top-1638184558 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1638184558 svg {
+        width: calc(100% + 1.3px);
+        height: 63px;
+    }
+}
+
+/* Bottom */
+.custom-shape-divider-bottom-1638184445 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1638184445 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-bottom-1638184445 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1638184445 svg {
+        width: calc(231% + 1.3px);
+        height: 75px;
+    }
+}
+
+
+/* ==============FOOTER WAVES============ */
+.custom-shape-divider-top-1638183598 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1638183598 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1638183598 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1638183598 svg {
+        width: calc(102% + 1.3px);
+        height: 38px;
+    }
+}

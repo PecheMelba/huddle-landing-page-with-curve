@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style-mobile.css">
+  <link rel="stylesheet" href="style-desktop.css">
+  
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img id="header-logo" src="images/logo.svg" alt="logo">
+      <div id="try-btn">Try it free</div>
+    </header>
+    
+    <section id="intro-pannel">
+      <h1 id="intro-title">Build The Community Your Fans Will Love</h1>
+      <p>Huddle re-imagines the way we build communities. You have a voice, but so does 
+        your audience. Create connections with your users as you engage in genuine discussion.</p>
+      <div id="get-started-btn">Get Started For Free</div>
+      <img id="img-mockups" src="images/screen-mockups.svg" alt="scree-mockups">
+    </section>
+
+    <div id="stats-pannel">
+      <div class="class-elem" id="first-stat">
+        <img class="stat-img" src="images/icon-communities.svg" alt="icon-communities">
+        <div class="stat-nb">1.4k+</div>
+        <div class="stat-subtext">Communities Formed</div>
+      </div>
+      <div class="class-elem">
+        <img class="stat-img" src="images/icon-messages.svg" alt="icon-communities">
+        <div class="stat-nb">2.7m+</div>
+        <div class="stat-subtext">Messages Sent</div>
+      </div>
+    </div>
+
+    <div class="idea-pannel" id="concept1">
+      <!-- waves -->
+      <div class="custom-shape-divider-top-1638183884">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
+        </svg>
+      </div>
+      <div class="custom-shape-divider-bottom-1638184153">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+      </div>
+
+      <!-- content -->
+      <div class="idea-text-pannel">
+        <h2 class="idea-title">Grow Together</h2>
+        <div class="idea-description">Generate meaningful discussions with your audience and build a strong, loyal community. 
+          Think of the insightful conversations you miss out on with a feedback form.</div>
+      </div>
+      <img class="img-pannel" src="images/illustration-grow-together.svg" alt="grow-together">
+    </div>
+
+    <div class="idea-pannel" id="concept2">
+      <div class="idea-text-pannel">
+        <h2 class="idea-title">Flowing Conversations</h2>
+        <div class="idea-description">You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+          just-in-time loading for a more natural flow.</div>
+      </div>
+      <img class="img-pannel" src="images/illustration-flowing-conversation.svg" alt="grow-together">
+    </div>
+
+    <div class="idea-pannel" id="idea3">
+      <!-- Waves -->
+      <div class="custom-shape-divider-top-1638184558">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
+    </div>
+      <div class="custom-shape-divider-bottom-1638184445">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+      </div>
+      <!-- content -->
+      <div class="idea-text-pannel">
+        <h2 class="idea-title">Your Users</h2>
+        <div class="idea-description">It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+          once signed in to your app, your users can start chatting immediately.</div>
+      </div>
+      <img class="img-pannel" src="images/illustration-your-users.svg" alt="grow-together">
+    </div>
+
+    <div id="build-community-container">
+      <h2 id="build-community-title">Ready To Build Your Community?</h2>
+      <div id="build-community-get-started-btn">Get Started For Free</div>
+    </div>
+    
+
+
+  </main>
+  <footer>
+    <!-- waves -->
+    <div class="custom-shape-divider-top-1638183598">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+      </svg>
+    </div>
+    <!-- content -->
+    <div id="contact-newsletter-pannel">
+      <div id="newsletter-container">
+        <h2 id="newsletter-title">Newsletter</h2>
+        <p id="newsletter-description">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+          send you spam or pass on your email address</p>      
+        <div id="sub-container">
+          <input id="sub-input" type="text" name="" id="" placeholder="write a mail address here">
+          <div id="sub-btn">Subscribe</div>
+        </div>
+      </div>
+
+      <div id="contact-container">
+        <img id="contact-logo" src="images/logo.svg" alt="logo">
+        <p id="contact-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+          vestibulum a, ultrices quis sem.</p>
+
+        <div id="phone-container"><img src="images/icon-phone.svg" alt="phone">Phone: +1-543-123-4567</div>
+        <div id="mail-container"><img src="images/icon-email.svg" alt="email">example@huddle.com</div>
+      </div>
+    </div>
+
+    <div id="social-container">
+      <img src="images/icon-facebook.svg" alt="facebook">
+      <img src="images/icon-instagram.svg" alt="instagram">
+      <img src="images/icon-twitter.svg" alt="twitter">
+    </div>
+  </footer>
+  
+  
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+</body>
+</html>

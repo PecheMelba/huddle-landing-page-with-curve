@@ -1,0 +1,239 @@
+@media all and (min-width: 900px)
+{
+    /* --------------HEADER-------------- */
+    header
+    {
+        width:90%;
+        margin: 0em auto 14em auto;
+        padding-top: 2.5em;
+    }
+    #header-logo
+    {
+        width:18%;
+    }
+    #try-btn
+    {
+        padding:0.5em 2.5em;
+        font-size: 1em;
+    }
+    /* --------------BUILD COMMUNITY-------------- */
+    #intro-pannel
+    {
+        text-align: center;
+    }
+    #intro-title
+    {
+        font-size: 3em;
+    }
+    #intro-pannel p
+    {
+        font-size: 1.5em;
+        width:55%;
+        margin: 0 auto;    
+        margin-bottom: 1.7em;
+    }
+    #get-started-btn
+    {
+        padding:1.7em 1em;
+        width:30%;
+        font-size: 1em;
+        border-radius: 3em;
+        margin: 0 auto 6.5em auto;
+    }
+    #img-mockups
+    {
+        width:70%;
+        margin-bottom: 6.5em;
+    }
+    /* --------------STATS-------------- */
+    #stats-pannel
+    {
+        display:flex;
+        justify-content: space-around;
+        width:80%;
+        margin: 0 auto 12em auto;
+    }
+    #first-stat
+    {
+        margin-bottom: 0em;
+    }
+    .class-elem {margin-bottom: 0em;}
+
+
+    .stat-img {margin-bottom: 0em; width:18%;}
+    .stat-nb 
+    {
+        font-size: 5.7em;
+        margin-bottom: 0.15em;
+    }
+    .stat-subtext
+    {
+        font-size: 1.4em;
+    }
+
+    /* --------------CONCETPS-------------- */
+    .idea-pannel
+    {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align:left;
+        padding: 10em 0;
+        margin: 0 auto 15em auto;
+        padding: 0;
+    }
+    #concept1 
+    {
+        padding:14em 0 11em 0;
+        margin: 0 auto 2em auto;
+    }
+    #concept2 
+    {
+        margin: 0em auto 6em auto;
+        padding: 10em 0 0 0;
+
+        display:flex;
+        flex-direction: row-reverse;
+    }
+    #idea3
+    {
+        padding: 13em 0 13em 0;
+    }
+
+    .idea-text-pannel
+    {
+        width:40%;
+        margin:0;
+        padding: 0;
+    }
+    .img-pannel 
+    {
+        width:37%; 
+        margin:0;
+    }
+    .idea-title
+    {
+        font-size: 2.7em;
+        margin-bottom: 0.75em;
+    }
+    .idea-description
+    {
+        font-size: 1.1em;
+    }
+    /* --------------READY TO BUILD COMMUNITY-------------- */
+    #build-community-container
+    {
+        text-align: center;
+        margin: 5em 0 5em 0;
+    }
+    #build-community-title
+    {
+        margin: 0em auto 1em auto;
+        font-size: 2.7em;
+    }
+    #build-community-get-started-btn
+    {
+        padding:1.2em 1em;
+        width:27%;
+        border-radius:3em;
+        font-size:1.2em;
+    }
+
+    /* --------------FOOTER-------------- */
+    footer
+    {
+        position: relative;    
+        background: hsl(192, 100%, 9%);
+        color:white;
+        padding: 15em 2em 2.5em 2em;    
+    }
+    #contact-newsletter-pannel
+    {
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        width:100%;
+        margin:0 auto;
+    }
+    #sub-container
+    {
+        display:flex;
+    }
+
+    /* News letter pannel */
+    #newsletter-container
+    {
+        margin-bottom:0em;
+        width:30%;
+    }
+    #newsletter-title
+    {
+        margin-bottom: 1em;
+        text-transform: uppercase;
+        font-size: 1.3em;
+    }
+    #newsletter-description
+    {
+        margin-bottom: 3em;
+        font-size: 0.9em;
+    }
+    #sub-input
+    {
+        margin-bottom: 1em;
+        padding:1.1em 1em;
+        width:70%;
+        margin: 0 3em 0em 0;
+        border-radius: 0.5em;
+    }
+    #sub-btn
+    {
+        font-weight: bold;
+        background-color: hsl(322, 100%, 66%);
+        padding:0.85em 1em;
+        margin: 0 0 0 auto;
+        text-align: center;
+        width:30%;
+        border-radius: 0.25em;
+    }
+
+    /* Contact pannel */
+    #contact-container
+    {
+        width:25%;
+    }
+    #contact-logo
+    {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(12%) saturate(562%) hue-rotate(232deg) brightness(120%) contrast(100%);
+        width:60%;
+        margin-bottom: 1em;
+    }
+    #contact-description
+    {
+        font-size: 0.8em;
+        font-weight: bold;
+        color:rgb(223, 223, 223);
+        line-height: 1.8em;
+        margin-bottom: 3em;
+    }
+    #phone-container, #mail-container
+    {
+        display:flex;
+        align-items: center;
+        margin-bottom: 1.5em;
+        color:rgb(223, 223, 223);
+    }
+    #phone-container img, #mail-container img
+    {
+        margin-right: 1.2em;
+    }
+    #social-container
+    {
+        width:50%;
+        margin: 3em 11%;        
+    }
+    #social-container img
+    {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(12%) saturate(562%) hue-rotate(232deg) brightness(120%) contrast(100%);
+        margin-right: 1em;
+    }
+}
